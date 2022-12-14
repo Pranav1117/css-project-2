@@ -1,0 +1,104 @@
+.blur{
+    filter: blur(2px);
+}
+.newtaskpop{
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 189px;
+    width: 422px;
+    position: relative;
+    top: 159px;
+    left: 495px;
+    background-color: white;
+}  
+.newitem{
+    border-bottom: 1px lightgray;
+    padding: 20px;
+}
+.bluebutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00A5EC;
+    background-color: #00A5EC;
+    color: white;
+    height: 29px;
+    width: 99px;
+    align-content: right;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 23px;
+    right: 20px;
+}
+.close{
+    color: gray;
+    font-size: 35px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    
+
+}    
+.c{
+    padding: 20px;    
+}
+.input{
+    width: 383px;
+    height: 24px;
+    margin: 10px;
+}
+.paris{
+    display: flex;
+    flex-direction: column;
+    font-size:18px ;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    width:300px;
+    border: 3px solid #EDEDED;
+    height: 320px;
+    line-height: 40px;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px;
+    }
+    .linebelow{
+        border: 1px solid #EDEDED;
+        width: 100%;
+    }
+    @media only screen and (max-width:500px) and (min-width:250px) {
+        .newtaskpop{
+            border: 1px solid lightgray;
+            border-radius: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            height: 189px;
+            width: 85%;
+            position: relative;
+            top: 71px;
+            left: 18px;
+            background-color: white;
+        }
+        .newitem{
+            border-bottom: 1px lightgray;
+            padding: 10px;
+        }
+        .close{
+            color: gray;
+            font-size: 35px;
+            transform: rotate(45deg);
+            position: absolute;
+            top: 0px;
+            right: 11px;
+        }
+        .newaddb{
+            display: none;
+        }
+        .input{
+            width: 80%;
+        }
+    }

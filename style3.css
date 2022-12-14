@@ -1,0 +1,182 @@
+.backb{
+    position: absolute;
+    top: 122px;
+    left: 589px;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+}
+.backarrow{
+    display: flex;
+    position: absolute;
+    top: 120px;
+    right: 958px;
+    border: 1px solid gray;
+    background-color: gray;
+    color: white;
+    height: 32px;
+    width: 32px;
+    font-size: 27px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.newaddb{
+    display: flex;
+    font-weight: regular;
+    font-size: 22px;
+    color: #424242;
+    position: absolute;
+    top: 122px;
+    left: 754px;
+    font-family: 'Inter', sans-serif;
+}
+.newplussign{
+    display: flex;
+    position: absolute;
+    top: 120px;
+    right: 789px;
+    border: 1px solid #00A5EC;
+    background-color: #00A5EC;
+    color: white;
+    height: 32px;
+    width: 32px;
+    font-size: 27px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.linethrough{
+    text-decoration: line-through;
+}
+.pariscenter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 192px;
+    left: 543px;
+}
+.addbutton{
+    font-family: 'Inter', sans-serif;
+}
+.newtaskpop{
+    color: gray;
+    background-color: white;
+    box-shadow: 0px 0px 16px  lightgray;
+    border: 1px solid lightgray;
+}
+@media only screen and (max-width:480px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+
+    }
+    .bggray{
+        width: 100%;
+    }
+    .h1{
+        color: black;
+        font-size: 13px;
+        font-family: 'Inter', sans-serif;
+        position: absolute;
+        top: -28px;
+        left: -2px;
+    }
+    .h2{
+        color: #00A5EC;
+        font-size: 13px;
+        font-family: 'Inter', sans-serif;
+        position: absolute;
+        top: -27px;
+        left: 40px;
+    }
+    .plussign{
+        display: flex;
+        position: absolute;
+        top: 94px;
+        right: 187px;
+        border: 1px solid #00A5EC;
+        background-color: #00A5EC;
+        color: white;
+        height: 32px;
+        width: 32px;
+        font-size: 27px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    .addb{
+        display: none;
+    }
+    .newaddb{
+        display: none;
+    }
+    .whole{
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+        top: 50px;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+    }
+    .newplussign{
+        display: flex;
+        position: absolute;
+        top: 43px;
+        right: 97px;
+        border: 1px solid #00A5EC;
+        background-color: #00A5EC;
+        color: white;
+        height: 20px;
+        width: 20px;
+        font-size: 27px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    .backarrow{
+        display: flex;
+        position: absolute;
+        top: 42px;
+        right: 158px;
+        border: 1px solid gray;
+        background-color: gray;
+        color: white;
+        height: 25px;
+        width: 25px;
+        font-size: 27px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    .backb{
+        position: absolute;
+        top: 122px;
+        left: 103px;
+        font-size: 22px;
+        font-family: 'Inter', sans-serif;
+        display: none;
+    }
+   .pariscenter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 106px;
+    width: 85%;
+    left: 14px;
+   }
+   .shopping{
+    font-size: 10px;
+   }
+ 
+}
